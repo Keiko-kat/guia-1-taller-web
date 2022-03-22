@@ -80,10 +80,10 @@ body{
 
 /* Footer */
 .footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-  margin-top: 20px;
+  padding: 5px;
+  text-align: left;
+  background: #235789;
+
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
@@ -104,11 +104,16 @@ body{
 
 /* links in cards */
 
+
 .card a{
 	float: center;
 	display: block;
+display: inline-block;
+/*
+    width:50%;
+*/
 	color: black;
-	text-align: center;
+	text-align: left;
 	text-decoration: underline;
   }
 .card a:hover {
